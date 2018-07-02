@@ -1,2 +1,5 @@
-# portfolio
-My personal profile and portfolios.
+# My Portfolio
+Get my professional profile [here](https://coelhodeveloper.com.br).
+
+# License
+[MIT](LICENSE) license.
