@@ -1,0 +1,3 @@
+User-Agent: *
+
+Sitemap: https://coelhodeveloper.com.br/sitemap.xml
