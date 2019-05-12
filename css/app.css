@@ -1,6 +1,6 @@
 :root {
-  --primary-color: #5B86E5;
-  --secondary-color: #36D1DC;
+  --primary-color: #5b86e5;
+  --secondary-color: #36d1dc;
   --text-color: #333333;
 }
 
@@ -14,11 +14,29 @@ body {
   text-align: center;
   margin-bottom: 40px;
   color: var(--text-color);
-  font-family: 'Hind', sans-serif;
-  background: -webkit-gradient(linear, right top, left top, from(var(--primary-color)), to(var(--secondary-color)));
-  background: -webkit-linear-gradient(right, var(--primary-color), var(--secondary-color));
-  background: -o-linear-gradient(right, var(--primary-color), var(--secondary-color));
-  background: linear-gradient(to left, var(--primary-color), var(--secondary-color));
+  font-family: "Hind", sans-serif;
+  background: -webkit-gradient(
+    linear,
+    right top,
+    left top,
+    from(var(--primary-color)),
+    to(var(--secondary-color))
+  );
+  background: -webkit-linear-gradient(
+    right,
+    var(--primary-color),
+    var(--secondary-color)
+  );
+  background: -o-linear-gradient(
+    right,
+    var(--primary-color),
+    var(--secondary-color)
+  );
+  background: linear-gradient(
+    to left,
+    var(--primary-color),
+    var(--secondary-color)
+  );
 }
 
 a {
@@ -58,10 +76,28 @@ section:nth-child(2) {
   padding: 10px;
   display: inline-block;
   margin-bottom: 20px;
-  background: -webkit-gradient(linear, right top, left top, from(var(--primary-color)), to(var(--secondary-color)));
-  background: -webkit-linear-gradient(right, var(--primary-color), var(--secondary-color));
-  background: -o-linear-gradient(right, var(--primary-color), var(--secondary-color));
-  background: linear-gradient(to left, var(--primary-color), var(--secondary-color));
+  background: -webkit-gradient(
+    linear,
+    right top,
+    left top,
+    from(var(--primary-color)),
+    to(var(--secondary-color))
+  );
+  background: -webkit-linear-gradient(
+    right,
+    var(--primary-color),
+    var(--secondary-color)
+  );
+  background: -o-linear-gradient(
+    right,
+    var(--primary-color),
+    var(--secondary-color)
+  );
+  background: linear-gradient(
+    to left,
+    var(--primary-color),
+    var(--secondary-color)
+  );
 }
 
 img.profile {
@@ -76,26 +112,44 @@ img.contact-icon {
 }
 
 h1 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 200;
 }
 
 h2 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin-bottom: 20px;
-  background: -webkit-gradient(linear, right top, left top, from(var(--primary-color)), to(var(--secondary-color)));
-  background: -webkit-linear-gradient(right, var(--primary-color), var(--secondary-color));
-  background: -o-linear-gradient(right, var(--primary-color), var(--secondary-color));
-  background: linear-gradient(to left, var(--primary-color), var(--secondary-color));
+  background: -webkit-gradient(
+    linear,
+    right top,
+    left top,
+    from(var(--primary-color)),
+    to(var(--secondary-color))
+  );
+  background: -webkit-linear-gradient(
+    right,
+    var(--primary-color),
+    var(--secondary-color)
+  );
+  background: -o-linear-gradient(
+    right,
+    var(--primary-color),
+    var(--secondary-color)
+  );
+  background: linear-gradient(
+    to left,
+    var(--primary-color),
+    var(--secondary-color)
+  );
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
-          background-clip: text;
+  background-clip: text;
 }
 
 blockquote {
   font-style: italic;
   position: relative;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   color: lightslategray;
   padding: 40px;
   margin-top: 20px;
@@ -111,18 +165,18 @@ blockquote::after {
 }
 
 blockquote::before {
-  content: '“';
+  content: "“";
   left: 0;
 }
 
 blockquote::after {
-  content: '”';
+  content: "”";
   bottom: 0;
   right: 0;
 }
 
 footer {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   margin-top: 40px;
   padding-left: 40px;
   padding-right: 40px;
@@ -133,6 +187,7 @@ footer {
   text-transform: uppercase;
 }
 
+.certificate,
 .skill {
   background-color: #f2f6f8;
   padding: 5px 10px;
@@ -143,11 +198,30 @@ footer {
   transition: 100ms color ease-out;
 }
 
+.certificate:hover,
 .skill:hover {
-  background: -webkit-gradient(linear, right top, left top, from(var(--primary-color)), to(var(--secondary-color)));
-  background: -webkit-linear-gradient(right, var(--primary-color), var(--secondary-color));
-  background: -o-linear-gradient(right, var(--primary-color), var(--secondary-color));
-  background: linear-gradient(to left, var(--primary-color), var(--secondary-color));
+  background: -webkit-gradient(
+    linear,
+    right top,
+    left top,
+    from(var(--primary-color)),
+    to(var(--secondary-color))
+  );
+  background: -webkit-linear-gradient(
+    right,
+    var(--primary-color),
+    var(--secondary-color)
+  );
+  background: -o-linear-gradient(
+    right,
+    var(--primary-color),
+    var(--secondary-color)
+  );
+  background: linear-gradient(
+    to left,
+    var(--primary-color),
+    var(--secondary-color)
+  );
   color: white;
 }
 
@@ -156,7 +230,7 @@ footer {
   pointer-events: none;
   width: 100%;
   text-transform: uppercase;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 200;
   font-size: 16px;
   display: block;
