@@ -218,10 +218,6 @@ progress::-moz-progress-bar {
   margin-bottom: 20px;
 }
 
-.project p {
-  font-style: italic;
-}
-
 .project .technologies {
   font-style: italic;
   text-align: center;
